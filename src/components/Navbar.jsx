@@ -1,6 +1,5 @@
-import logo from "../assets/kevinRushLogo.png";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import logo from "../assets/Screenshot 2024-10-24 010815.png";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -9,8 +8,22 @@ const Navbar = () => {
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
+        <a 
+          href="https://www.linkedin.com/in/ben-a-198113229/" // Replace with your LinkedIn URL
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="transform transition-transform duration-300 hover:scale-125 hover:text-blue-700" // Added transform and scale classes
+        >
+          <FaLinkedin />
+        </a>
+        <a 
+          href="https://github.com/egy7777" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="transform transition-transform duration-300 hover:scale-125 hover:text-gray-800" // Added transform and scale classes
+        >
+          <FaGithub />
+        </a>
       </div>
     </nav>
   );

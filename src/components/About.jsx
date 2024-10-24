@@ -1,5 +1,5 @@
-import aboutImg from "../assets/about.jpg";
-import { ABOUT_TEXT } from "../constants"; // Ensure ABOUT_TEXT is defined in constants
+import aboutImg from "../assets/IMG_7380.jpg"; // Correct import
+import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -11,19 +11,19 @@ const About = () => {
       </h2>
       <div className="flex flex-wrap">
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }} // Fixed curly braces
+          whileInView={{ opacity: 1, x: 0 }} 
           initial={{ opacity: 0, x: -100 }}
-          transition={{ duration: 0.5 }} // Corrected "duraion" to "duration"
+          transition={{ duration: 0.5 }}
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="about" />
+            <img className="rounded-2xl" src={aboutImg} alt="about" /> {/* Use aboutImg here */}
           </div>
         </motion.div>
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }} // Fixed curly braces
-          initial={{ opacity: 0, x: 100 }} // Fixed "inital" typo
-          transition={{ duration: 0.5 }} // Corrected "duraion" to "duration"
+          whileInView={{ opacity: 1, x: 0 }} 
+          initial={{ opacity: 0, x: 100 }} 
+          transition={{ duration: 0.5 }}
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex justify-center lg:justify-start">

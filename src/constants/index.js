@@ -3,48 +3,81 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I passionate full stack developer with a knack for crafting robust and scalable web applications. 
-With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies 
-like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and 
-deliver exceptional user experiences.`;
+export const HERO_CONTENT = `As a student of Information Technology and Cybersecurity at Kean University, 
+I have a passion for technology and all its aspects, especially its application in the realm of cybersecurity. 
+I am extremely interested and passionate about pursuing opportunities that will enable me to further expand and 
+enhance my knowledge, skill set, and gain more experience in the tech field to prepare myself for my upcoming M.S 
+program as well as the professional work field. I am interested in research topics in the field of I.T and cybersecurity, 
+particularly as it applies to securing critical infrastructure, protecting data and defending against cyber threats.
+In addition to my academic background, I have also gained practical experience in the field through various internships 
+and comptetions. Through these experiences, I have developed a strong foundation in Information Technology, networking 
+(TCP/IP) and cybersecurity.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly 
-web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, 
-MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a 
-career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex 
-problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source 
-projects.`;
+export const ABOUT_TEXT = `As a student of Information Technology and Cybersecurity at Kean University, 
+I have a passion for technology and all its aspects, especially its application in the realm of cybersecurity. 
+I am extremely interested and passionate about pursuing opportunities that will enable me to further expand and 
+enhance my knowledge, skill set, and gain more experience in the tech field to prepare myself for my upcoming M.S 
+program as well as the professional work field. I am interested in research topics in the field of I.T and cybersecurity, 
+particularly as it applies to securing critical infrastructure, protecting data and defending against cyber threats.
+In addition to my academic background, I have also gained practical experience in the field through various internships 
+and comptetions. Through these experiences, I have developed a strong foundation in Information Technology, networking 
+(TCP/IP) and cybersecurity.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs 
-    and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "09-2024 - 01-2025",
+    role: "Real time crime center analyst",
+    company: "New Jersey State Police",
+    description: `Data monitoring and analysis, Technological support, Reporting and
+    documentation`,
+    technologies: ["Python", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "01-2024 - 01-2025",
+    role: "NSF Build and Broaden Research Fellowship",
+    company: "Kean University",
+    description: `Assisted in the development and implementation of machine learning
+    models to predict contingent workers using logistic regression and
+    other statistical techniques.`,
+    technologies: ["Python", "CSS", "Vue.js", "mySQL"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    year: "01-2024 - 05-2024",
+    role: "End User Field Services Technician Intern",
+    company: "NJ Transit",
+    description: `Hardware and Software installation and maintenance, User Assistance,
+    Security Compliance and Documentation.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    year: "02-2024 - 05-2024",
+    role: "CAHSI Research Scholar",
+    company: "University of Texas, Kean University",
+    description: `Conducted mentored research as part of the CAHSI REU program, and
+    engaged in training to strengthen my computing, communication, and
+    professional skills. Created a research plan, maintained a journal to
+    report on research progress, and created a research poster to
+    disseminate my research results..`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
+  {
+    year: "05-2023 - 09-2023",
+    role: "FIU Research Intern",
+    company: "Florida International University",
+    description: `Contributed and assisted in the development of a deep learning-based
+    radio fingerprinting system for IoT device authentication.`,
+    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  },
+  {
+    year: "02-2024 - 05-2024",
+    role: "Cisco Network Intern",
+    company: "Cisco inc.",
+    description: `Worked in a team consisted of Round Rock and Cisco network
+    engineers to set up all WIFI-6 access points for the Global Citizens
+    Festival in NYC.`,
+    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  },
+ 
 ];
 
 export const PROJECTS = [
@@ -79,7 +112,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Eatontown, NJ ",
+  phoneNo: "(+1) 732 - 546 - 5618",
+  email: "abrahabe@kean.edu",
 };

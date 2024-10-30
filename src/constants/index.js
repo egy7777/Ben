@@ -73,18 +73,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Sam-in-USA E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "A fully functional e-commerce website built on Shopify with all e-commerce features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    url: "https://sam-in-usa.com", // URL for Sam-in-USA
   },
   {
-    title: "Task Management App",
+    title: "RFID Door Lock",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "A fully functional RFID door lock that could be mounted on any door, created during Hackathon 2022.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    url: "https://example.com/rfid-door-lock", // URL for RFID Door Lock
   },
   {
     title: "Portfolio Website",
@@ -92,18 +94,19 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    url: "https://your-portfolio.com", // URL for Portfolio
   },
   {
-    title: "Blogging Platform",
+    title: "Web Games",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Created various web games such as Chess, Tic Tac Toe, and matching cards.",
+    technologies: ["HTML", "CSS", "Vue.js", "Express", "MySQL"],
+    url: "https://web-games.com", // URL for Web Games
   },
 ];
 
 export const CONTACT = {
   address: "Eatontown, NJ ",
-  phoneNo: "(+1) 732 - 546 - 5618",
   email: "abrahabe@kean.edu",
 };

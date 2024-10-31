@@ -5,7 +5,6 @@ import About from "./components/About"; // Make sure to import About
 import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
-import { Analytics } from "@vercel/analytics/react"
 import Projects from "./components/Projects";
 
 const App = () => {

@@ -76,17 +76,15 @@ export const PROJECTS = [
     title: "Sam-in-USA E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website built on Shopify with all e-commerce features like product listing, shopping cart, and user authentication.",
+      "A fully functional e-commerce website built on shopify with all ecom features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    url: "https://sam-in-usa.com", // URL for Sam-in-USA
   },
   {
     title: "RFID Door Lock",
     image: project2,
     description:
-      "A fully functional RFID door lock that could be mounted on any door, created during Hackathon 2022.",
+      " A fully functional RFID door lock that could be mounted on any door, created during Hackathon 2022.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    url: "https://example.com/rfid-door-lock", // URL for RFID Door Lock
   },
   {
     title: "Portfolio Website",
@@ -94,15 +92,13 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    url: "https://your-portfolio.com", // URL for Portfolio
   },
   {
     title: "Web Games",
     image: project4,
     description:
-      "Created various web games such as Chess, Tic Tac Toe, and matching cards.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "MySQL"],
-    url: "https://web-games.com", // URL for Web Games
+      "Created varius webgames such as Chess, Tic Tac Toe and matching cards.",
+    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
 
